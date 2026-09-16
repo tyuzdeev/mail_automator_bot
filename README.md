@@ -22,5 +22,5 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone [https://github.com/ВАШ_НИК/mail-automator-bot.git](https://github.com/ВАШ_НИК/mail-automator-bot.git)
+   git clone [https://github.com/tyuzdeev/mail-automator-bot.git](https://github.com/tyuzdeev/mail-automator-bot.git)
    cd mail-automator-bot
