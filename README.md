@@ -24,3 +24,21 @@
    ```bash
    git clone [https://github.com/tyuzdeev/mail-automator-bot.git](https://github.com/tyuzdeev/mail-automator-bot.git)
    cd mail-automator-bot
+
+2. Установите зависимости:
+
+Bash
+pip install pyTelegramBotAPI imap_tools
+
+3.
+Откройте mail_bot.py и подставьте свои данные в блок настроек:
+
+EMAIL_LOGIN и EMAIL_PASSWORD (используйте пароль для внешних приложений)
+TG_TOKEN (от BotFather)
+TG_CHAT_ID (ваш ID в Telegram)
+
+4. 
+Запустите бота:
+
+Bash
+python3 mail_bot.py
