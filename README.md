@@ -21,7 +21,7 @@
 
 1. Клонируйте репозиторий и перейдите в папку с проектом:
    ```bash
-   git clone [https://github.com/tyuzdeev4/mail-automator-bot.git](https://github.com/tyuzdeev4/mail-automator-bot.git)
+   git clone [https://github.com/tyuzdeev/mail-automator-bot.git](https://github.com/tyuzdeev/mail-automator-bot.git)
    cd mail-automator-bot
    ```
 
