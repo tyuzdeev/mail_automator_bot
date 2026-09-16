@@ -1,4 +1,3 @@
-```markdown
 # 🤖 Mail Automator Bot (IMAP to Telegram)
 
 Надежный Telegram-бот на Python для автоматического мониторинга электронной почты (по протоколу IMAP), извлечения PDF-вложений и их мгновенной пересылки в мессенджер. 
@@ -20,25 +19,23 @@
 
 ## ⚙️ Настройка и запуск
 
-1. Клонируйте репозиторий:
+1. Клонируйте репозиторий и перейдите в папку с проектом:
    ```bash
-   git clone [https://github.com/tyuzdeev/mail-automator-bot.git](https://github.com/tyuzdeev/mail-automator-bot.git)
+   git clone [https://github.com/tyuzdeev4/mail-automator-bot.git](https://github.com/tyuzdeev4/mail-automator-bot.git)
    cd mail-automator-bot
+   ```
 
 2. Установите зависимости:
+   ```bash
+   pip install pyTelegramBotAPI imap_tools
+   ```
 
-Bash
-pip install pyTelegramBotAPI imap_tools
+3. Откройте файл `mail_bot.py` и подставьте свои данные в блок настроек:
+   - `EMAIL_LOGIN` и `EMAIL_PASSWORD` (используйте пароль для внешних приложений)
+   - `TG_TOKEN` (токен от BotFather)
+   - `TG_CHAT_ID` (ваш ID в Telegram)
 
-3.
-Откройте mail_bot.py и подставьте свои данные в блок настроек:
-
-EMAIL_LOGIN и EMAIL_PASSWORD (используйте пароль для внешних приложений)
-TG_TOKEN (от BotFather)
-TG_CHAT_ID (ваш ID в Telegram)
-
-4. 
-Запустите бота:
-
-Bash
-python3 mail_bot.py
+4. Запустите бота:
+   ```bash
+   python3 mail_bot.py
+   ```
